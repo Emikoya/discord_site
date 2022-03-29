@@ -1,0 +1,50 @@
+body {
+  background-color: #36393f;
+  color: white;
+}
+
+#formulaire{
+  text-align: center;
+  margin-top :25%;
+}
+
+#entete {
+  padding-left: 10px;
+  margin-top: -15px;
+  border-bottom: solid #272727;
+  position: relative;
+}
+
+#co {
+  position: relative;
+  text-align: right;
+  margin-top: -30px;
+}
+
+#publie {
+  position: absolute;
+  background-color: #40444b;
+  width: 98%;
+  height: 50px;
+  left: 10px;
+  right: 10px;
+  bottom: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+textarea {
+  background: none;
+  border: none;
+  resize: none;
+  color: white;
+  width: 98%;
+}
+textarea.placeholder{
+  color : #72767d;
+}
+
+#affichage{
+  padding: 10px;
+  font-size: 23px;
+}
